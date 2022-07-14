@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  /* background-color: #c2afff; */
+}
+h2 {
+    margin-top: 15px;
+}
+header {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  color: #8a68f9;;
+  background-color: #13094d;
+}
+
+nav {
+  max-width: 80%;
+  margin: auto;
+}
+
+nav h1 {
+  padding: 24px 0;
+}
+
+nav h1:hover {
+  cursor: pointer;
+  filter: brightness(65%);
+}
+
+section {
+  max-width: 80%;
+  margin: auto;
+  line-height: 32px;
+  text-align: justify;
+}
+
+
+span {
+  font-weight: 700;
+}
+
+img {
+    margin-top: 20px;
+  width: 50%;
+}
+
+.image {
+  max-width: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+
+}
+
+p {
+  margin: 48px 0;
+}
+
+.dance {
+  color: #7d34fc;
+}
+
+.about {
+  background-color: #9c88ff;
+  max-width: 100%;
+}
+
+.part2 {
+  margin: auto;
+  padding: 24px 0;
+  max-width: 80%;
+}
+
+.buttons {
+  width: 250px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.take-part {
+  color: white;
+  background-color: #9d3cff;
+}
+
+.more-info {
+  color: #000000
+}
+
+button {
+  padding: 12px 24px;
+  border: none;
+  font-weight: 650;
+}
+
+button:hover {
+  cursor: pointer;
+  filter: brightness(84%);
+}
+
+button:active {
+  outline: none;
+  box-shadow: 2px 2px 4px #222031;
+}
+
+footer {
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  background-color: #13094d;
+}
+
+footer a {
+  margin: 32px 48px;
+  color: #F7CCAC;
+  text-decoration: none;
+}
+
+footer a:hover {
+  cursor: pointer;
+  filter: brightness(65%);
+}
+
+footer a:visited {
+  color: #8a68f9;
+  text-decoration: underline;
+}
